@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 App::uses('AppModel', 'Model');
 /**
@@ -65,7 +64,7 @@ class Car extends AppModel {
 	);
 
 }
-=======
+
 <?php
 App::uses('AppModel', 'Model');
 /**
@@ -132,4 +131,3 @@ class Car extends AppModel {
 	);
 
 }
->>>>>>> 7f6ebcc763673f05df2af6dbeb74f19419476a48
