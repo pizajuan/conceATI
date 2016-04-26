@@ -1,0 +1,76 @@
+.eti{
+	color: red;
+}
+
+.page-header{
+	color: #e6e6ff;
+}
+
+.logo-vw{
+	float: left;
+	vertical-align: middle;
+	height: auto;
+}
+/*
+#container-all{
+	background-image: url('http://testcoches.es/wp-content/uploads/2015/09/volkswagen-logo.jpg'); 
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+}
+*/
+body{
+ /*background-image: url("https://4.bp.blogspot.com/-l4xOohjSusI/UvkXh6pnOVI/AAAAAAAAkCE/GyKS2-DYKdU/s0/Volkswagen+CC-2014_Ultra+HD.jpg");*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-top: 56px;
+}
+
+.navbar-brand {
+    padding: 6px;
+}
+
+#content{
+	background-color: #aaa;	
+}
+
+#content-home{
+	background-color: #fff;	
+	-webkit-box-shadow: -1px 20px 51px 23px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 20px 51px 23px rgba(0,0,0,0.75);
+	box-shadow: -1px 20px 51px 23px rgba(0,0,0,0.75);
+}
+
+.fixed-height{
+	max-height: 350px;
+	min-width: 100%;
+}
+
+.column-img{
+	max-height: 140px;
+	max-width: 140%;
+}
+
+.navbar{
+	-webkit-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.page-header{
+	color:#000;
+}
+
+h2, p{
+	color:#000;
+}
+
+footer{
+	background-color: #fff;
+}
+
+#columns-home{
+	margin-top: 20px;
+}
