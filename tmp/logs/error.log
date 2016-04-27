@@ -4129,6 +4129,19 @@ Stack Trace:
 #4 [internal function]: App::shutdown()
 #5 {main}
 >>>>>>> 7f6ebcc763673f05df2af6dbeb74f19419476a48
+<<<<<<< HEAD
+2016-04-27 01:45:31 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+=======
 2016-04-26 21:10:52 Error: [MissingControllerException] Controller class ImgController could not be found.
 Exception Attributes: array (
   'class' => 'ImgController',
@@ -4138,6 +4151,7 @@ Request URL: /img/logo_principal.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+<<<<<<< HEAD
 2016-04-26 21:33:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
 Request URL: /profiles/saveRegister
 Stack Trace:
@@ -4634,3 +4648,464 @@ Request URL: /img/passat.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+=======
+>>>>>>> 1ebd99eb5030d5e3e2fe0aafbfffb6005af452ca
+2016-04-27 01:51:08 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 02:41:54 Error: [MissingViewException] View file "Profiles\mycar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\mycar.ctp',
+)
+Request URL: /profiles/mycar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-27 02:42:18 Error: [MissingActionException] Action ProfilesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'img',
+)
+Request URL: /Profiles/img/home2.jpg
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 02:44:52 Error: [MissingActionException] Action ProfilesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'img',
+)
+Request URL: /Profiles/img/home2.jpg
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 02:45:27 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 02:45:27 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:21:42 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:21:42 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:21:44 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:24:01 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:24:01 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:28:08 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:28:08 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:29:18 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:29:18 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:32:08 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:32:08 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:33:28 Error: [MissingViewException] View file "Profiles\mycar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\mycar.ctp',
+)
+Request URL: /profiles/mycar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-27 03:35:10 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:35:14 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 03:35:15 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:14:37 Error: Fatal Error (64): Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in [C:\www\concesionario\View\Layouts\default.ctp, line 67]
+2016-04-27 04:14:37 Error: [FatalErrorException] Cannot use isset() on the result of a function call (you can use "null !== func()" instead)
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use isse...', 'C:\\www\\concesio...', 67)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use isse...', 'C:\\www\\concesio...', 67, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot use isse...', 'C:\\www\\concesio...', 67, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 04:15:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\www\concesionario\View\Layouts\default.ctp, line 67]
+2016-04-27 04:15:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 67, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 67, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 04:16:18 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\www\concesionario\View\Layouts\default.ctp(67): View->__get('Auth')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(971): include('C:\\www\\concesio...')
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(933): View->_evaluate('C:\\www\\concesio...', Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(546): View->_render('C:\\www\\concesio...')
+#6 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 04:16:26 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:16:27 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:16:30 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:16:43 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\www\concesionario\View\Layouts\default.ctp(67): View->__get('Auth')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(971): include('C:\\www\\concesio...')
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(933): View->_evaluate('C:\\www\\concesio...', Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(546): View->_render('C:\\www\\concesio...')
+#6 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CatalogsController), Object(CakeRequest))
+#10 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 04:16:49 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /services
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\www\concesionario\View\Layouts\default.ctp(67): View->__get('Auth')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(971): include('C:\\www\\concesio...')
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(933): View->_evaluate('C:\\www\\concesio...', Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(546): View->_render('C:\\www\\concesio...')
+#6 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#10 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 04:16:51 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /home
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\www\concesionario\View\Layouts\default.ctp(67): View->__get('Auth')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(971): include('C:\\www\\concesio...')
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(933): View->_evaluate('C:\\www\\concesio...', Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(546): View->_render('C:\\www\\concesio...')
+#6 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#10 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 04:33:04 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\www\concesionario\View\Layouts\default.ctp(66): View->__get('Auth')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(971): include('C:\\www\\concesio...')
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(933): View->_evaluate('C:\\www\\concesio...', Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(546): View->_render('C:\\www\\concesio...')
+#6 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 04:40:00 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:40:00 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:46:24 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:46:24 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:46:26 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:49:25 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-27 04:49:25 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+>>>>>>> 050b57af3f8f00216834136505d58658901b4144

@@ -202,9 +202,15 @@
  * To use database sessions, run the app/Config/Schema/sessions.php schema using
  * the cake shell command: cake schema create Sessions
  */
-	Configure::write('Session', array(
+	/*Configure::write('Session', array(
 		'defaults' => 'php'
-	));
+	));*/
+
+	Configure::write('Session', array(
+        'defaults' => 'php',
+        'timeout' => 100, // The session will timeout after 30 minutes of inactivity
+        'autoRegenerate' => true // causes the session expiration time to reset on each page load
+    ));
 
 /**
  * A random string used in security hashing methods.
