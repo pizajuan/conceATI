@@ -12,6 +12,8 @@
 
 App::uses('AppController', 'Controller');
 
+
+
 /**
  * Application Controller
  *
@@ -22,6 +24,7 @@ App::uses('AppController', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class CatalogsController extends AppController {
+	public $uses=array('CarModel');
 	function beforeFilter(){
 	    parent::beforeFilter();
 	}
@@ -33,7 +36,7 @@ class CatalogsController extends AppController {
     }
 
     function lol() {
-    	//$this->set('cars', $this->Car->find('all'));
+    	$this->set('cars', $this->CarModel->find('all'));
     }
 }
 ?>
