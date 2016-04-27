@@ -63,11 +63,11 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 								</ul>
 								<ul class="nav navbar-nav navbar-right">
 									<li>
-										<a id="loginTag" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a>
-										<a id="loginName" href="#" data-toggle="modal" data-target="#loginModal" class="hidden"></a>
+										<a id="loginTag" href="#" data-toggle="modal" data-target="#loginModal" class=" <?php if(AuthComponent::user('id') > 0) echo 'hidden' ?> ">Ingresar</a>
+										<a id="loginName" href="#" data-toggle="modal" data-target="#" class="<?php if(AuthComponent::user('id') <= 0) {echo 'hidden';}?>"><?php echo ucfirst(AuthComponent::user('name'));?></a>
 									</li>
 									<li>
-										<a id="logOutTag" href="#" data-toggle="modal" data-target="#" class="">Salir</a>
+										<a id="logOutTag" href="#" data-toggle="modal" data-target="#" class="<?php if(AuthComponent::user('id') <= 0) {echo 'hidden';}?>">Salir</a>
 									</li>
 								</ul>
 							</div>

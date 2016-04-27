@@ -1,4 +1,4 @@
-<div id="content-catalogo" class= "container-fluid">
+<div id="content-catalogs" class= "container">
 	<div class="page-header">
 		<h1>chaaaaaveeeeeeezzzzz</h1>
 	</div>

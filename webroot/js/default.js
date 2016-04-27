@@ -12,6 +12,29 @@ $(document).ready(function() {
 		loggear();
 	});
 
+	$('#logOutTag').click(function(){
+		logout();
+		$('#logOutTag').off("click");
+	});
+
+	$('#loginName').click(function(){
+		showMyCar();
+	});
+
+	$(function(){
+	  var current_page_URL = location.href;
+	  $( "a" ).each(function() {
+	     if ($(this).attr("href") !== "#") {
+	       var target_URL = $(this).prop("href");
+	       if (target_URL == current_page_URL) {
+	          $('nav a').parents('li, ul').removeClass('active');
+	          $(this).parent('li').addClass('active');
+	          return false;
+	       }
+	     }
+	  });
+	});
+	
 });
 
 function logout(){
@@ -32,8 +55,10 @@ function logout(){
 				$('#loginTag').removeClass('hidden');
 				//$('#logOutTag').removeClass('hidden');
 				$('#logOutTag').off("click");
+				
+				window.location = window.location.protocol + "//" + window.location.hostname + "/home";
 				alert("Se ha cerrado la sesion!!");
-
+				
 	    	}else if(response == '0'){
 	    		
 	    	}
@@ -105,14 +130,43 @@ function loggear(){
 				$('#loginName').removeClass('hidden');
 				$('#loginName').text(responseTextObj.name);
 				//$('#logOutTag').removeClass('hidden');
+				$('#loginName').click(function(){
+					showMyCar();
+				});
 				$('#logOutTag').click(function(){
 					logout();
 				});
 				alert("Ingreso Exitoso!!!");
+
+				showMyCar(responseTextObj.name);
+				
 
 	    	}else if(responseTextObj.success == '0'){
 	    		alert("Usuario o Contraseña Inválidos");
 	    	}
 	    }
 	});
+}
+
+function showMyCar(name){
+
+	console.log(name);
+	window.location = window.location.protocol + "//" + window.location.hostname + "/profiles/myCar";
+	
+	/*
+	var id= 1;
+	var para = {'Id': id}
+	
+	$.ajax({
+		data:para,
+		url:window.location.protocol+"//" + window.location.hostname + "/profiles/myCar",
+		type:  'post',
+		success:  function (response) {
+			$('#content').empty();
+			$('#content').html(response);
+			console.log("mi carro");
+
+		}
+	});
+	*/
 }

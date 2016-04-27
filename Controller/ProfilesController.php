@@ -29,7 +29,7 @@ class ProfilesController extends AppController {
 	
 	public function beforeFilter() {
 	 	parent::beforeFilter();
-		$this->Auth->allow('logIn','saveRegister');  
+		$this->Auth->allow('logIn','saveRegister','myCar');  
     }
 
     public function saveRegister() {
@@ -123,6 +123,15 @@ class ProfilesController extends AppController {
 
 		return $success;
 	}
+
+    public function myCar(){
+        //$this->layout = false;
+
+        //$id= $_POST['Id'];
+
+        //$this->printWithFormat($this->Auth->user('id'),true);
+        //$this->set(compact('id'));
+    }
 	
 }
 ?>
