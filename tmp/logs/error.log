@@ -5108,8 +5108,8 @@ Stack Trace:
 #1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
 #2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
->>>>>>> 050b57af3f8f00216834136505d58658901b4144
-2016-04-27 14:09:20 Error: [MissingActionException] Action HomeController::home() could not be found.
+<<<<<<< HEAD
+2016-04-28 00:05:42 Error: [MissingActionException] Action HomeController::home() could not be found.
 Exception Attributes: array (
   'controller' => 'HomeController',
   'action' => 'home',
@@ -5118,5 +5118,644 @@ Request URL: /
 Stack Trace:
 #0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
 #1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
-#2 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-04-28 00:35:35 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+=======
+>>>>>>> 050b57af3f8f00216834136505d58658901b4144
+<<<<<<< HEAD
+2016-04-27 14:09:20 Error: [MissingActionException] Action HomeController::home() could not be found.
+=======
+>>>>>>> 9a33a47f93b22ba157d5015f5695d93e557817e7
+2016-04-28 00:43:57 Error: [MissingActionException] Action HomeController::home() could not be found.
+>>>>>>> 27acddef71b3bcac50be39ac516c8792bb67a4c6
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+<<<<<<< HEAD
+#2 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+=======
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 01:22:28 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\www\concesionario\Controller\ProfilesController.php, line 144]
+2016-04-28 01:22:28 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 01:48:28 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\www\concesionario\Controller\ProfilesController.php, line 144]
+2016-04-28 01:48:28 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 01:49:51 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 132]
+2016-04-28 01:49:51 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:00:30 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 132]
+2016-04-28 02:00:30 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:02:21 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 159]
+2016-04-28 02:02:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:05:09 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 159]
+2016-04-28 02:05:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:28:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\www\concesionario\View\Profiles\my_car.ctp, line 12]
+2016-04-28 02:28:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:29:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\www\concesionario\View\Profiles\my_car.ctp, line 12]
+2016-04-28 02:29:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:36:31 Error: Fatal Error (1): Call to undefined function myNewCar() in [C:\www\concesionario\Controller\ProfilesController.php, line 164]
+2016-04-28 02:36:31 Error: [FatalErrorException] Call to undefined function myNewCar()
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\www\\concesio...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\www\\concesio...', 164, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\www\\concesio...', 164, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:45:16 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:45:17 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:55:49 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:55:49 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:15 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:15 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:16 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:59:03 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:59:04 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:03:53 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:03:53 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:11:09 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+>>>>>>> 27acddef71b3bcac50be39ac516c8792bb67a4c6
+#3 {main}
+2016-04-28 05:50:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Car), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(250): Model->save(Array)
+#6 [internal function]: ProfilesController->saveCar()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 05:50:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Car), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(250): Model->save(Array)
+#6 [internal function]: ProfilesController->saveCar()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 05:51:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Car), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(250): Model->save(Array)
+#6 [internal function]: ProfilesController->saveCar()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 05:51:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Car), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(250): Model->save(Array)
+#6 [internal function]: ProfilesController->saveCar()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 05:54:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Car), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(250): Model->save(Array)
+#6 [internal function]: ProfilesController->saveCar()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 08:02:25 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 274]
+2016-04-28 08:02:25 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /profiles/homeCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 08:03:40 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 274]
+2016-04-28 08:03:40 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /profiles/homeCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 274, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 08:05:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 307]
+2016-04-28 08:05:13 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /profiles/homeCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 307)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 307, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 307, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 08:19:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:21:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:22:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:26:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:26:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:26:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:45:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:45:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:46:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:46:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:46:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:46:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:47:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fields' in 'where clause'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Car`.`i...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Car`.`i...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Car`.`i...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Car), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(307): Model->find('first', Array)
+#7 [internal function]: ProfilesController->saveDate()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 08:52:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /profiles/saveDate
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Date), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(319): Model->save(Array)
+#6 [internal function]: ProfilesController->saveDate()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-28 09:00:17 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 277]
+2016-04-28 09:00:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /profiles/date
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 277)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 277, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 277, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 09:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Services.name' in 'field list'
+Request URL: /profiles/date
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Service...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Service...', Array, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Service...', false)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Date), Array)
+#5 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\app\Controller\ProfilesController.php(278): Model->find('all', Array)
+#7 [internal function]: ProfilesController->date()
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-28 09:11:23 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 280]
+2016-04-28 09:11:23 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /profiles/date
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 09:16:02 Error: Fatal Error (4): syntax error, unexpected '$dataToShow' (T_VARIABLE) in [C:\xampp\htdocs\app\Controller\ProfilesController.php, line 280]
+2016-04-28 09:16:02 Error: [FatalErrorException] syntax error, unexpected '$dataToShow' (T_VARIABLE)
+Request URL: /profiles/date
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 280, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 09:51:18 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\xampp\htdocs\app\View\Catalogs\view.ctp, line 11]
+2016-04-28 09:51:18 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /catalogs/view/2
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

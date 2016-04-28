@@ -25,7 +25,7 @@ App::uses('AppController', 'Controller');
  */
 class CatalogsController extends AppController {
 	public $uses=array('CarModel');
-	
+
 	function beforeFilter(){
 	    parent::beforeFilter();
 	}
@@ -38,6 +38,10 @@ class CatalogsController extends AppController {
 
     function lol() {
     	$this->set('cars', $this->CarModel->find('all'));
+    }
+
+    function view($id = null){
+    	$this->set('car', $this->CarModel->findById($id));
     }
 }
 ?>

@@ -10,6 +10,8 @@
 				<a href="#" class="thumbnail">
 					<?php echo $this->Html->image($car['CarModel']['image'], array('class'=>'img-responsive catalogs-photo')) ?> 
 				</a>
+				<?php echo $this->Html->link($car['CarModel']['name'], 
+				array('controller' => 'catalogs', 'action'=>'view', $car['CarModel']['id'])); ?>
 			</div>
 		<?php endforeach ?>
 		<div class="col-md-12">

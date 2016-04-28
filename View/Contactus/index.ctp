@@ -15,7 +15,7 @@
 			<textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Escribe aquí lo que quieres decirnos"></textarea>
 		</div>
 		<div class="col-md-4 col-md-offset-5">
-			<button type="button" class="btn btn-primary btn-lg mod-button">Large button</button>
+			<button type="button" class="btn btn-primary btn-lg mod-button">Enviar</button>
 		</div>
 		<div class="col-md-5 col-md-offset-4">
 			<img src="/img/logo_principal.png" alt="" class="img-responsive logo">

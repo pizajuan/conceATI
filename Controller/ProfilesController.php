@@ -13,6 +13,14 @@
 
 App::uses('AppController', 'Controller');
 App::uses('User', 'Model');
+App::uses('Car', 'Model');
+App::uses('CarModel', 'Model');
+App::uses('TypeCar', 'Model');
+App::uses('Date', 'Model');
+App::uses('DateService', 'Model');
+App::uses('Service', 'Model');
+
+
 
 /**
  * Application Controller
@@ -25,11 +33,11 @@ App::uses('User', 'Model');
  */
 class ProfilesController extends AppController {
 
-	public $uses = array('User');
+	public $uses = array('User','Car','CarModel','TypeCar', 'Service', 'Date', 'DateService');
 	
 	public function beforeFilter() {
 	 	parent::beforeFilter();
-		$this->Auth->allow('logIn','saveRegister','myCar');  
+		$this->Auth->allow('logIn','saveRegister');  
     }
 
     public function saveRegister() {
@@ -124,13 +132,205 @@ class ProfilesController extends AppController {
 		return $success;
 	}
 
+    public function homeCar(){
+        $userId = $this->Auth->user('id');
+
+        $dataToShow = $this->Car->find('first', array(
+                    'conditions' => array (
+                        'Car.state_id' => 1,
+                        'Car.user_id'=> $userId,
+                        ),
+                    'recursive'=> -1,   
+                    'joins' => array(
+                        array(
+                            'table' => 'type_cars',
+                            'alias' => 'TypeCar',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'TypeCar.id=Car.type_cars_id')
+                        ),
+                        array(
+                            'table' => 'car_models',
+                            'alias' => 'CarModel',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'CarModel.id=Car.car_model_id')
+                        )
+
+                    ),
+                    'fields' => array('Car.car_id','TypeCar.name','CarModel.name','Car.year')
+                
+            ));
+
+        //$dataToShow = $this->Car->find('all');
+        //$this->printWithFormat(empty($dataToShow),true);
+
+        $this->set(compact('dataToShow'));
+    }
+
     public function myCar(){
         //$this->layout = false;
 
-        //$id= $_POST['Id'];
+        $userId = $this->Auth->user('id');
 
-        //$this->printWithFormat($this->Auth->user('id'),true);
-        //$this->set(compact('id'));
+        $dataToShow = $this->Car->find('first', array(
+                    'conditions' => array (
+                        'Car.state_id' => 1,
+                        'Car.user_id'=> $userId,
+                        ),
+                    'recursive'=> -1,   
+                    'joins' => array(
+                        array(
+                            'table' => 'type_cars',
+                            'alias' => 'TypeCar',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'TypeCar.id=Car.type_cars_id')
+                        ),
+                        array(
+                            'table' => 'car_models',
+                            'alias' => 'CarModel',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'CarModel.id=Car.car_model_id')
+                        )
+
+                    ),
+                    'fields' => array('Car.car_id','TypeCar.name','CarModel.name','Car.year','CarModel.image')
+                
+            ));
+
+        //$dataToShow = $this->Car->find('all');
+        //$this->printWithFormat($dataToShow,true);
+
+        $this->set(compact('dataToShow'));
+        
+    }
+
+    public function myNewCar(){
+
+        $dataCarModel = $this->CarModel->find('all', array(
+                    'conditions' => array (
+                        'CarModel.state_id' => 1,
+                        ),
+                    'recursive'=> -1,   
+                    'fields' => array('CarModel.name','CarModel.id')
+                
+                    ));
+        $dataTypeCar = $this->TypeCar->find('all', array(
+                    'conditions' => array (
+                        'TypeCar.state_id' => 1,
+                        ),
+                    'recursive'=> -1,   
+                    'fields' => array('TypeCar.name','TypeCar.id')
+                
+                    ));
+
+        //$this->printWithFormat($dataCarModel[1]['CarModel']['name'],true);
+        //$this->printWithFormat($dataTypeCar,true);
+
+        $this->set(compact('dataCarModel','dataTypeCar'));
+    }
+
+    public function saveCar(){
+        $this->autoRender = false;
+
+        $placa=array_key_exists("placa", $_POST) ? $_POST['placa'] : NULL;
+        $tipo=array_key_exists("tipo", $_POST) ? $_POST['tipo'] : NULL;
+        $modelo=array_key_exists("modelo", $_POST) ? $_POST['modelo'] : NULL;
+        $anio=array_key_exists("anio", $_POST) ? $_POST['anio'] : NULL;
+        $userId = $this->Auth->user('id');
+
+        //$this->printWithFormat($placa,true);
+
+        $dataToCreateCar['Car']['car_id']=$placa;
+        $dataToCreateCar['Car']['type_cars_id']=$tipo;
+        $dataToCreateCar['Car']['car_model_id']=$modelo;
+        $dataToCreateCar['Car']['year']=$anio;
+        $dataToCreateCar['Car']['user_id']=$userId;
+        $dataToCreateCar['Car']['state_id']=1;
+
+        //$this->printWithFormat($dataToCreateCar,true);
+
+        if($this->Car->save($dataToCreateCar)){
+            $success = 1;
+        }else{
+            $success = 0;
+        }
+
+        return $success;
+    }
+
+    public function date(){
+        $userId = $this->Auth->user('id');
+        $data = $this->Date->find('all', array(
+            'conditions' => array('Date.user_id'=>$userId),
+            'recursive' => -1,
+            'joins' => array(
+                array(
+                    'table' => 'date_services',
+                    'alias' => 'DateServices',
+                    'type' => "INNER",
+                    'conditions' => array('DateServices.date_id'=>'Date.id')
+                    )
+                ),
+            'fields' => array('Date.date', 'DateServices.service_id')
+            ));
+        //$this->printWithFormat($data, true);
+        $data2 = $this->Service->find('first', array(
+            'conditions' => array('Service.id' => $data[0]['DateServices']['service_id']),
+            'fields' => array('Service.name')
+            ));
+        //$this->printWithFormat($dataToShow, true);
+        $dataToShow[0]['Service']['name'] = $data2['Service']['name'];
+        $dataToShow[0]['Date']['date'] = $data[0]['Date']['date'];
+        if (sizeof($dataToShow) > 0) {
+            $this->set(compact('dataToShow'));
+        }
+        else{
+            return $this->redirect(
+                array('controller'=>'profiles', 'action'=>'newDate'));
+        }
+        
+    }
+
+    public function newDate(){
+        $services = $this->Service->find('all');
+        $this->set(compact('services'));
+    }
+
+    public function saveDate(){
+        $this->autoRender = false;
+
+        $fecha=array_key_exists("fecha", $_POST) ? $_POST['fecha'] : NULL;
+        $servicio=array_key_exists("servicio", $_POST) ? $_POST['servicio'] : NULL;
+        $userId = $this->Auth->user('id');
+        $carro = $this->Car->find('first', array('conditions' => array('Car.user_id' => $userId), 'fields' => array('Car.car_id')));
+        //$this->printWithFormat($fecha, true);
+        //$this->printWithFormat($placa,true);
+
+        $dataToCreateCar['Date']['car_id']=$carro['Car']['car_id'];
+        $dataToCreateDateService['DateService']['service_id']=$servicio;
+        $dataToCreateCar['Date']['user_id']=$userId;
+        $dataToCreateCar['Date']['date']=$fecha;
+        $dataToCreateCar['Date']['state_id']=1;
+
+        //$this->printWithFormat($dataToCreateCar,true);
+
+        if($this->Date->save($dataToCreateCar)){
+            $dateId = $this->Date->find('first', array(
+                'conditions' => array('Date.user_id' => $userId, 'Date.date' => $fecha),
+                'fields' => array('Date.id')
+                ));
+            $dataToCreateDateService['DateService']['date_id']=$dateId['Date']['id'];
+            $dataToCreateDateService['DateService']['state_id']=1;
+            if($this->DateService->save($dataToCreateDateService))
+                $success = 1;
+        }else{
+            $success = 0;
+        }
+
+        return $success;
     }
 	
 }
