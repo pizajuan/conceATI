@@ -25,6 +25,7 @@ App::uses('AppController', 'Controller');
  */
 class CatalogsController extends AppController {
 	public $uses=array('CarModel');
+	
 	function beforeFilter(){
 	    parent::beforeFilter();
 	}

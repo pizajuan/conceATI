@@ -22,10 +22,11 @@ App::uses('AppController', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class ServicesController extends AppController {
+	public $uses=array('Service');
 
     function index() {
+    	$this->set('services', $this->Service->find('all'));
     }
-
 
 }
 ?>
