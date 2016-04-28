@@ -4151,6 +4151,504 @@ Request URL: /img/logo_principal.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+<<<<<<< HEAD
+2016-04-26 21:33:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:33:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'ci_rif_index'
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-26 21:34:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+Request URL: /profiles/saveRegister
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Datasource\DboSource.php(1019): DboSource->execute('INSERT INTO `co...')
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\app\Controller\ProfilesController.php(68): Model->save(Array)
+#6 [internal function]: ProfilesController->saveRegister()
+#7 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-27 05:25:52 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:25:52 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:33:10 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:33:10 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:33:11 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:33:11 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:33:12 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:33:12 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:33:47 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:33:48 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:34:14 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:34:14 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:37:01 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:37:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:41:26 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:41:26 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:42:09 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:42:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:42:46 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:42:46 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:43:00 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 36]
+2016-04-27 05:43:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 05:43:20 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 05:43:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:07:01 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 37]
+2016-04-27 06:07:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 37, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:12:29 Error: Fatal Error (4): syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 27]
+2016-04-27 06:12:29 Error: [FatalErrorException] syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';'
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:12:57 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\app\Model\TypeCar.php, line 43]
+2016-04-27 06:12:57 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:14:00 Error: Fatal Error (64): Cannot redeclare class TypeCar in [C:\xampp\htdocs\app\Model\TypeCar.php, line 83]
+2016-04-27 06:14:00 Error: [FatalErrorException] Cannot redeclare class TypeCar
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 83)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 83, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 83, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:14:12 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\app\Model\TypeCar.php, line 43]
+2016-04-27 06:14:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:15:08 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\app\Model\Car.php, line 68]
+2016-04-27 06:15:08 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 68, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 68, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:16:42 Error: Fatal Error (1): Call to undefined function printWithFormat() in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 39]
+2016-04-27 06:16:42 Error: [FatalErrorException] Call to undefined function printWithFormat()
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:20:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 15]
+2016-04-27 06:20:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:21:03 Error: Fatal Error (1): Call to undefined function printWithFormat() in [C:\xampp\htdocs\app\Controller\CatalogsController.php, line 41]
+2016-04-27 06:21:03 Error: [FatalErrorException] Call to undefined function printWithFormat()
+Request URL: /catalogs/lol
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-27 06:21:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/img/fox.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-27 06:21:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/img/polo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-27 06:21:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/img/golf.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-27 06:21:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/img/passat.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+
+2016-04-27 06:22:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/passat.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+=======
 >>>>>>> 1ebd99eb5030d5e3e2fe0aafbfffb6005af452ca
 2016-04-27 01:51:08 Error: [MissingActionException] Action HomeController::home() could not be found.
 Exception Attributes: array (
@@ -4610,6 +5108,7 @@ Stack Trace:
 #1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
 #2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+<<<<<<< HEAD
 2016-04-28 00:05:42 Error: [MissingActionException] Action HomeController::home() could not be found.
 Exception Attributes: array (
   'controller' => 'HomeController',
@@ -4622,6 +5121,242 @@ Stack Trace:
 #2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
 2016-04-28 00:35:35 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+=======
+>>>>>>> 050b57af3f8f00216834136505d58658901b4144
+>>>>>>> 9a33a47f93b22ba157d5015f5695d93e557817e7
+2016-04-28 00:43:57 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 01:22:28 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\www\concesionario\Controller\ProfilesController.php, line 144]
+2016-04-28 01:22:28 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 01:48:28 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\www\concesionario\Controller\ProfilesController.php, line 144]
+2016-04-28 01:48:28 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 144, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 01:49:51 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 132]
+2016-04-28 01:49:51 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:00:30 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 132]
+2016-04-28 02:00:30 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 132, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:02:21 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 159]
+2016-04-28 02:02:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:05:09 Error: Fatal Error (1): Call to a member function find() on null in [C:\www\concesionario\Controller\ProfilesController.php, line 159]
+2016-04-28 02:05:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\www\\concesio...', 159, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:28:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\www\concesionario\View\Profiles\my_car.ctp, line 12]
+2016-04-28 02:28:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:29:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\www\concesionario\View\Profiles\my_car.ctp, line 12]
+2016-04-28 02:29:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\www\\concesio...', 12, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:36:31 Error: Fatal Error (1): Call to undefined function myNewCar() in [C:\www\concesionario\Controller\ProfilesController.php, line 164]
+2016-04-28 02:36:31 Error: [FatalErrorException] Call to undefined function myNewCar()
+Request URL: /profiles/myCar
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\www\\concesio...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\www\\concesio...', 164, Array)
+#2 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\www\\concesio...', 164, Array)
+#3 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-28 02:45:16 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:45:17 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:55:49 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:55:49 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:15 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:15 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:58:16 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:59:03 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 02:59:04 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:03:53 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:03:53 Error: [MissingActionException] Action HomeController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\www\frameworks\cakephp\cakephp-2.8.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\www\concesionario\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-28 03:11:09 Error: [MissingActionException] Action HomeController::home() could not be found.
 Exception Attributes: array (
   'controller' => 'HomeController',
   'action' => 'home',

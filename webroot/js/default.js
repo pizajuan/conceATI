@@ -34,8 +34,44 @@ $(document).ready(function() {
 	     }
 	  });
 	});
-	
+
+	$('#guardarCarro').click(function(){
+		//console.log("guardar");
+		//saveCar();
+
+		var placa = $('#placa').val();
+		console.log(placa);
+		var tipo = $('#selectType').val();
+		console.log(tipo);
+		var modelo = $('#selectModel').val();
+		var anio = $('#anio').val();
+
+		var parametros = {
+			"placa" : placa,
+		    "tipo" : tipo,
+		    "modelo" : modelo,
+		    "anio" : anio
+		};
+
+		$.ajax({
+			data:parametros,
+		    url: window.location.protocol+"//" + window.location.hostname + "/profiles/saveCar",
+		    type:  'post',
+		    success:  function (response) {
+		    	console.log(response);
+		    	if(response == '1'){
+					
+					window.location = window.location.protocol + "//" + window.location.hostname + "/profiles/homeCar";
+					
+		    	}else if(response == '0'){
+		    		
+		    	}
+		    }
+		});	
+	});
+
 });
+
 
 function logout(){
 	//console.log("logout");
@@ -151,22 +187,11 @@ function loggear(){
 function showMyCar(name){
 
 	console.log(name);
-	window.location = window.location.protocol + "//" + window.location.hostname + "/profiles/myCar";
+	window.location = window.location.protocol + "//" + window.location.hostname + "/profiles/homeCar";
 	
-	/*
-	var id= 1;
-	var para = {'Id': id}
-	
-	$.ajax({
-		data:para,
-		url:window.location.protocol+"//" + window.location.hostname + "/profiles/myCar",
-		type:  'post',
-		success:  function (response) {
-			$('#content').empty();
-			$('#content').html(response);
-			console.log("mi carro");
-
-		}
+	$('#guardarCarro').click(function(){
+		console.log("guardar");
+		//saveCar();
 	});
-	*/
+
 }
